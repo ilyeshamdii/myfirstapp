@@ -2,13 +2,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react'
 
 
-function FullName() {
+function Address(props) {
   return (
    <>
-   <p>ILYES HAMDI</p>
+   <p>{props.address}</p>
    </>
    
   );
 }
 
-export default FullName;
+export default Address;
